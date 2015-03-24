@@ -1,0 +1,36 @@
+body {
+	background-color: #DBC5DE;
+}
+
+form {
+	background-color: #A69DA4;
+	width: 20%;
+	margin: 0px auto 20px;
+	padding: 10px 10px 25px 10px;
+	border: 2px solid #8F868D;
+	border-radius: 5%;
+}
+
+h1{
+font-family: Calibri, sans-serif;
+font-size: 1.5em;
+color: #421E39;
+text-align: center;
+text-shadow: 1px 1px #CC5AAF;
+}
+
+p {
+font-family: Calibri, sans-serif;
+font-size: 1em;
+color: #262D85;
+text-align: right;
+}
+
+input {
+	float: right;
+}
+
+.button {
+	color: #9A7CCC;
+	background-color: #CAEBEA;
+}
