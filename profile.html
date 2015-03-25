@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Profile</title>
+	</head>
+	<body>
+		<form method="POST" action="/profile/edit">
+			<p>
+				<label for="profile-email-field">Email:</label>
+				<input type="text" name="profile-email" id="profile-email-field" placeholder="Enter your email address...">
+			</p>
+			<p>
+				<label for="profile-password-field">Password:</label>
+				<input type="password" name="profile-password" id="profile-password-field" placeholder="Enter your password...">
+			</p>
+			<p>
+				<label for="gender-field">Gender:</label>
+				<select name="gender" id="gender-field">
+					<option value="1">Female</option>
+					<option value="2">Male</option>
+				</select>
+			</p>
+			<p>
+				<label for="profile-first-name-field">First Name:</label>
+				<input type="text" name="profile-first-name" id="profile-first-name-field" placeholder="Enter your First Name...">
+			</p>
+			<p>
+				<label for="profile-last-name-field">Last Name:</label>
+				<input type="text" name="profile-last-name" id="profile-last-name-field" placeholder="Enter your Last Name...">
+			</p>
+			<p>
+				<input type="submit" name="profile-submit" id="profile-submit-field">
+			</p>
+		</form>
+	</body>
+</html>
