@@ -4,7 +4,7 @@ body {
 
 form {
 	background-color: #A69DA4;
-	width: 20%;
+	width: 50%;
 	margin: 0px auto 20px;
 	padding: 10px 10px 25px 10px;
 	border: 2px solid #8F868D;
@@ -19,7 +19,7 @@ text-align: center;
 text-shadow: 1px 1px #CC5AAF;
 }
 
-p {
+span {
 font-family: Calibri, sans-serif;
 font-size: 1em;
 color: #262D85;
@@ -28,6 +28,19 @@ text-align: right;
 
 input {
 	float: right;
+}
+
+.top {
+	padding-top: 40px;
+}
+
+.Gender {
+	float: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: Calibri, sans-serif;
+	font-size: 14px;
+	text-decoration: bold;
 }
 
 .button {
